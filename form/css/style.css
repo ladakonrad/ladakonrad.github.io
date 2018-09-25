@@ -1,0 +1,64 @@
+body {
+    background-color: #000033;
+}
+
+/*Formularz*/
+form {
+    background-color: #000066;
+    color: #CCFFFF;
+    width: 35%;
+    padding: 30px;
+}
+
+/*etykiety - ogolne ustawienia*/
+label {
+    display: block;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+/*etykieta - mezczynza*/
+label[for=male] {
+    display: inline;
+}
+
+/*etykieta - kobieta*/
+label[for=female] {
+    display: inline;
+}
+
+/*etykieta - wyrazam zgodę*/
+label[for=agreement] {
+    display: inline;
+}
+
+/*Pole wyboru*/
+input {
+    background-color: #003399;
+    color: #FFFFFF;
+    padding-right: 20px;
+}
+
+input:focus {
+    background-color: #003399;
+}
+
+/*Lista wybieralna*/
+select {
+    background-color: #003399;
+    color: #FFFFFF;
+}
+
+/*Pole - wiadomość*/
+textarea {
+    background-color: #003399;
+    color: #FFFFFF;
+}
+
+/*Przycisk wyślij*/
+input[value="Wyślij"] {
+    background-color: #003300;
+    text-align: center;
+    padding: 5px;
+    font-weight: bold;
+}
